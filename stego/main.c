@@ -17,7 +17,7 @@
 #define READ_MODE "read"
 #define DELETE_MODE "delete"
 #define MESSAGE_END "$"
-#define MAX_MESSAGE_LEN 3
+#define MAX_MESSAGE_LEN 1024
 
 
 off_t get_file_size(int fd) {
